@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Knox Membrane</title>
+<meta name="description" content="How Knox Membrane, operated by Copy Management Services Ltd, handles personal data.">
+<meta name="theme-color" content="#050505">
+<link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/plexmono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<style>
+  .doc{max-width:760px;margin:0 auto;padding:72px 32px 96px}
+  .doc h1{margin:0 0 12px;font-family:Archivo,sans-serif;font-weight:900;font-size:clamp(34px,4.4vw,56px);line-height:1;letter-spacing:-0.015em}
+  .doc h2{margin:48px 0 12px;font-family:Archivo,sans-serif;font-weight:700;font-size:22px;line-height:1.2}
+  .doc p,.doc li{font-size:14px;line-height:1.75;color:#C9C4B8}
+  .doc p{margin:0 0 14px}
+  .doc ul{margin:0 0 14px;padding-left:20px}
+  .doc li{margin:0 0 6px}
+  .doc a{color:#F2EFE8;border-bottom:1px solid #E23D28}
+  .doc a:hover{color:#E23D28}
+  .doc .meta{font-size:12px;color:#9A958A;letter-spacing:0.04em}
+  .doc table{width:100%;border-collapse:collapse;margin:0 0 14px;font-size:13px}
+  .doc th,.doc td{border-top:1px solid #262524;padding:10px 12px 10px 0;text-align:left;vertical-align:top;line-height:1.6;color:#C9C4B8}
+  .doc th{color:#F2EFE8;font-weight:600}
+</style>
+</head>
+<body>
+<div style="min-height:100vh;display:flex;flex-direction:column">
+
+<header style="position:sticky;top:0;z-index:10;background:rgba(5,5,5,0.92);backdrop-filter:blur(8px);border-bottom:1px solid #1c1c1c">
+  <div style="max-width:1240px;margin:0 auto;padding:16px 28px;display:flex;align-items:center;gap:16px 28px;flex-wrap:wrap">
+    <a href="/" style="display:flex;align-items:center;gap:10px">
+      <svg width="26" height="30" viewBox="-140 -160 280 320" aria-hidden="true"><polygon points="0,-150 130,-75 130,75 0,150 -130,75 -130,-75" fill="#101010" stroke="#262524" stroke-width="8"></polygon><polygon points="0,150 130,75 0,0 -130,75" fill="#E23D28"></polygon></svg>
+      <span style="font-family:Archivo,sans-serif;font-weight:700;font-size:20px;color:#F2EFE8;line-height:1">knox</span>
+    </a>
+    <nav style="display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;flex:1 1 auto;white-space:nowrap;justify-content:center">
+      <a href="/" style="color:#9A958A" class="h1">Home</a>
+      <a href="/privacy.html" aria-current="page" style="color:#F2EFE8">Privacy</a>
+    </nav>
+    <div style="display:flex;gap:10px;white-space:nowrap">
+      <a href="https://auth.knoxmembrane.com" style="font-size:13px;font-weight:500;padding:9px 16px;border:1px solid #333;color:#F2EFE8" class="h2">Sign in</a>
+    </div>
+  </div>
+</header>
+
+<main style="flex:1">
+<article class="doc">
+  <h1>Privacy policy</h1>
+  <p class="meta">Last updated 16 October 2026</p>
+
+  <p>Knox Membrane ("Knox") is operated by Copy Management Services Ltd, registered in England and Wales, company number 06316604, registered office Broad Oak Manor, Broad Oak End, Bramfield Road, Hertford, SG14 2JA. We are the data controller for the personal data described here. Contact us at <a href="mailto:knox@knoxmembrane.com">knox@knoxmembrane.com</a>.</p>
+
+  <p>Knox is a governance layer that AI agents work through. It is built so that your work and your data stay in your own accounts: your GitHub repositories and your own Supabase. This policy explains the small amount of personal data Knox itself handles.</p>
+
+  <h2>What we collect</h2>
+  <table>
+    <tr><th>Data</th><th>Why</th></tr>
+    <tr><td>Your name, work email address, and the account identifier your sign-in provider gives us (Microsoft, Google or GitHub)</td><td>To sign you in and match you to the workspaces you have been invited to</td></tr>
+    <tr><td>The workspaces you belong to and your role in each (owner, admin or member), and who invited or removed you</td><td>To give you the access your organisation set, and to take it away when they remove you</td></tr>
+    <tr><td>A record of actions taken through Knox, and who took them</td><td>Governance and audit: this is the service your organisation uses Knox for. It is kept mainly in your organisation's own record repository</td></tr>
+    <tr><td>Messages you send to Knox support</td><td>To handle your request</td></tr>
+  </table>
+  <p>We never ask for or store your password. When you sign in with Microsoft, Google or GitHub, we receive only the basic identity details above; we do not keep the access tokens those providers issue, and we do not read your mail, files, contacts or calendar.</p>
+
+  <h2>Google and Microsoft sign-in</h2>
+  <p>If you choose "Continue with Google" or "Continue with Microsoft", Knox requests only the standard sign-in permissions: your name, email address and account identifier (the openid, email and profile scopes). We use them only to sign you in and to check you belong to the workspace you are entering. We do not use them for advertising, do not sell them, do not share them except as described in this policy, and do not use them to train AI models. Knox's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Your organisation's data</h2>
+  <p>Knox works in your organisation's own systems through permissions your organisation grants: the Knox GitHub App, installed on the repositories you choose, and, if you connect it, your own Supabase. Those systems stay yours. Knox does not copy your repositories or databases into an account of ours, and never asks for your passwords to them. Where your organisation connects its Supabase, Knox keeps the connection permission it grants in encrypted form, solely to act within that permission. Your organisation can withdraw these permissions at any time from GitHub or Supabase, and Knox's access stops.</p>
+
+  <h2>Cookies</h2>
+  <p>The sign-in service sets one cookie to keep you signed in. It is strictly necessary and expires. This website and Knox use no advertising or tracking cookies and no third-party analytics.</p>
+
+  <h2>Who processes data for us</h2>
+  <p>We use a small number of service providers to run Knox: GitHub (code hosting and the Knox GitHub App), Cloudflare (network and email forwarding), Supabase (database, hosted in the EU), and Microsoft and Google (only when you choose to sign in with them). If paid plans are offered, payments are handled by Stripe, and we do not see full card numbers. Some of these providers process data outside the UK; where they do, it is under their standard data protection terms.</p>
+
+  <h2>How long we keep it</h2>
+  <p>We keep your sign-in details and memberships while you have access to a Knox workspace. When an organisation removes you, your access ends straight away; we keep a record that you were removed, and when, as part of the governance record. Records written to your organisation's repository are kept for as long as your organisation keeps them there. Support messages are kept as long as needed to resolve the request.</p>
+
+  <h2>Your rights</h2>
+  <p>Under UK data protection law you can ask for a copy of your personal data, ask us to correct or delete it, object to or restrict its use, and ask for it in a portable form. Email <a href="mailto:knox@knoxmembrane.com">knox@knoxmembrane.com</a>. If Knox is used by your employer, some requests are best made to them, as they control your workspace. You can also complain to the Information Commissioner's Office at <a href="https://ico.org.uk" rel="noopener">ico.org.uk</a>.</p>
+
+  <h2>Changes</h2>
+  <p>If we change this policy we will update the date at the top of this page.</p>
+</article>
+</main>
+
+<footer style="border-top:1px solid #1c1c1c">
+  <div style="max-width:1240px;margin:0 auto;padding:40px 32px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:12px;color:#9A958A">
+    <div style="display:flex;align-items:center;gap:10px">
+      <svg width="18" height="21" viewBox="-140 -160 280 320" aria-hidden="true"><polygon points="0,-150 130,-75 130,75 0,150 -130,75 -130,-75" fill="#101010" stroke="#262524" stroke-width="8"></polygon><polygon points="0,150 130,75 0,0 -130,75" fill="#E23D28"></polygon></svg>
+      <span>Knox Membrane</span>
+    </div>
+    <div style="display:flex;gap:20px;flex-wrap:wrap">
+      <a href="/privacy.html" style="color:#9A958A" class="h1">Privacy</a>
+      <span>knoxmembrane.com</span>
+    </div>
+    <div style="flex-basis:100%;font-size:11px;line-height:1.6;color:#6b675e">Copy Management Services Ltd. Registered in England and Wales, company number 06316604. Registered office: Broad Oak Manor, Broad Oak End, Bramfield Road, Hertford, SG14 2JA. VAT GB912450847.</div>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
